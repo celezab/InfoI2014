@@ -3,8 +3,8 @@
 
 int main (){
   
-    char nick[];
-    char mensaje[];
+    char nick[20];	//modo ilustrativo, necesitamos pedir memoria con malloc, creo que seria la mejor opcion
+    char mensaje[x];	//lo mismo que arriba.
     //Leer la IP del server desde un archivo de configuracion
     //Conectar con el servidor de chat
     printf ("Seleccione un apodo. Con este sera visto por el resto de los usuarios");
